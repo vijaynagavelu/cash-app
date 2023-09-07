@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url(/src/assets_Page1/Vector\ \(1\).png);
+  background-image: url(/src/assets_Page1/Vector.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -59,8 +59,24 @@
   bottom: 0;
 }
 
+.App_Page3 {
+  text-align: center;
+  font-family: 'Agrandir';
+}
 
-body {
-  overflow-y: hidden;
-  overflow-x: auto;
+.App_Page4 {
+  text-align: center;
+  font-family: 'Agrandir';
+}
+
+.App_Page5 {
+  text-align: center;
+  background-image: url(/src/assets_Page5/image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Agrandir';
+  margin: 0;
+  padding: 0;
 }
