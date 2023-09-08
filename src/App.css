@@ -50,7 +50,7 @@
   font-family: 'Agrandir';
 }
 
-.sub {
+.subPage2 {
   background-image: url(/src/assets_Page2/Vector.png);
   background-repeat: repeat-x;
   position: absolute;
@@ -79,4 +79,24 @@
   font-family: 'Agrandir';
   margin: 0;
   padding: 0;
+}
+
+
+/* CSS for fade-out with scaling transition */
+.fade-out {
+  opacity: 0;
+  transition: opacity 2s ease-in-out, height 0.5s ease-in-out;
+  height: 0px;
+}
+
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+
+body {
+  overflow: hidden;
+  background-color: rgb(58, 55, 55);
 }
