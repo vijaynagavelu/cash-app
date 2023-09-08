@@ -23,12 +23,12 @@ export default function Page4() {
                 </div>
 
                 <div className='flex justify-end items-end z-[51]  w-[80%]  ml-[0%] '>
-                    <div><img className='w-[50%] ml-[25%] mb-[20%]' src={BOOSTPHONE} alt="Phone" />  </div>
-                    <div><img className='w-[55%] -ml-[20%] mb-[200%]' src={BURGER} alt="Phone" /></div>
-                    <div><img className='w-[100%] -ml-[80%] mb-[150%]' src={COFFEE} alt="Phone" /></div>
-                    <div><img className='w-[65%] -ml-[110%] mb-[280%]' src={CARD} alt="Phone" /></div>
-                    <div><img className='w-[60%] -ml-[130%] mb-[410%]' src={HAND} alt="Phone" /></div>
-                    <div><img className='w-[60%] -ml-[85%] mb-[140%]' src={BOOSTSHOE} alt="Phone" /></div>
+                    <div><img className='w-[50%] ml-[25%] mb-[20%] ' src={BOOSTPHONE} alt="Phone" />  </div>
+                    <div><img className='w-[55%] -ml-[20%] mb-[200%] floating-icon' src={BURGER} alt="Phone" /></div>
+                    <div><img className='w-[100%] -ml-[80%] mb-[150%] floating-icon' src={COFFEE} alt="Phone" /></div>
+                    <div><img className='w-[65%] -ml-[110%] mb-[280%] floating-icon' src={CARD} alt="Phone" /></div>
+                    <div><img className='w-[60%] -ml-[130%] mb-[410%] floating-icon' src={HAND} alt="Phone" /></div>
+                    <div><img className='w-[60%] -ml-[85%] mb-[140%] floating-icon' src={BOOSTSHOE} alt="Phone" /></div>
                 </div>
 
 
