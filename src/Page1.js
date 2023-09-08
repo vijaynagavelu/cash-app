@@ -14,7 +14,7 @@ import STORE from './assets_Page1/STORE.png'
 import INSTA from './assets_Page1/INSTA_ICON.png'
 import TWEET from './assets_Page1/TWITTER_ICON.png'
 import THREAD from './assets_Page1/THREADS_ICON.png'
-import ARROW from './assets_Page1/ARROW.png'
+// import ARROW from './assets_Page1/ARROW.png'
 
 
 export default function Page1() {
@@ -73,20 +73,20 @@ export default function Page1() {
 
                 <div className='flex '>
                     <ul className='flex gap-5 font-extrabold text-xs '>
-                        <button className='flex gap-2 items-end px-6 py-3.5 rounded-lg border-2 border-white bg-black'>
+                        <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-6 py-3.5 rounded-lg border-2 border-white bg-black'>
                             <span>
                                 <img className='w-[100%]' src={APPLE} alt="Phone" />
                             </span>APP STORE</button>
-                        <button className='flex gap-2 items-end px-4 py-3.5 rounded-lg border-2 border-white  bg-black'>
+                        <button className='flex gap-2 hover:-translate-y-1 hover:scale-105 transition-all duration-700ms items-end px-4 py-3.5 rounded-lg border-2 border-white  bg-black'>
                             <span>
                                 <img className='w-[100%]' src={STORE} alt="Phone" />
                             </span>GOOGLE PLAY</button>
                     </ul>
                 </div>
 
-                <div className='flex animate-bounce pr-2 pl-8'>
+                {/* <div className='flex animate-bounce pr-2 pl-8'>
                     <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
-                </div>
+                </div> */}
 
                 <div className='flex '>
                     <div className='flex pr-4 pb-2 w-[410px]'>

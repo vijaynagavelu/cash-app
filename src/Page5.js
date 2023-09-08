@@ -9,7 +9,7 @@ import BITCOIN from './assets_Page5/investing-bitcoin.png'
 import TWEETBLACK from './assets_Page5/tweetBlack.png'
 import THREADBLACK from './assets_Page5/threadBlack.png'
 import INSTABLACK from './assets_Page5/instaBlack.png'
-import ARROW from './assets_Page1/ARROW.png'
+// import ARROW from './assets_Page1/ARROW.png'
 import APPLE from './assets_Page1/APPLE.png'
 import STORE from './assets_Page1/STORE.png'
 
@@ -50,21 +50,21 @@ export default function Page5() {
             <nav className='w-full text-black absolute bottom-0  flex justify-between items-center  px-14'>
 
                 <div className='flex '>
-                    <ul className='flex gap-5 font-extrabold text-xs '>
-                        <button className='flex gap-2 items-end px-6 py-3.5 rounded-lg border-2 border-black bg-white'>
+                    <ul className='flex  gap-5 font-extrabold text-xs '>
+                        <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-6 py-3.5 rounded-lg border-2 border-black bg-white'>
                             <span>
                                 <img className='w-[100%]' src={APPLE} alt="Phone" />
                             </span>APP STORE</button>
-                        <button className='flex gap-2 items-end px-4 py-3.5 rounded-lg border-2 border-black  bg-white'>
+                        <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-4 py-3.5 rounded-lg border-2 border-black  bg-white'>
                             <span>
                                 <img className='w-[100%]' src={STORE} alt="Phone" />
                             </span>GOOGLE PLAY</button>
                     </ul>
                 </div>
 
-                <div className='flex animate-bounce pr-2 pl-8'>
+                {/* <div className='flex animate-bounce pr-2 pl-8'>
                     <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
-                </div>
+                </div> */}
 
                 <div className='flex '>
                     <div className='flex pr-4 pb-2 w-[410px]'>
