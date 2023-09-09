@@ -15,22 +15,9 @@ import BANKINGTRACK1 from './assets_Page3/banking-track-1.png'
 import BANKINGTRACK2 from './assets_Page3/banking-track-2.png'
 import BANKINGTUBE from './assets_Page3/banking-tube.png'
 
-import EYE from './assets_Page1/eye.png'
-import LOGO from './assets_Page1/logo.png'
-import { useState } from 'react';
-
 
 export default function Page3() {
-
-    const [menuOpen, setMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
-
-
     return (
-
         <main>
             <div className="App_Page3 max-[701px]:hidden  relative flex w-full overflow-hidden bg-[#00d54b]  h-screen text-white">
 
@@ -71,7 +58,6 @@ export default function Page3() {
                 </div>
             </div >
 
-
             <div className="App_Page3 min-[701px]:hidden  relative flex w-full overflow-hidden bg-[#00d54b]  h-screen text-white">
 
                 <div className='w-full flex grow justify-between  text-white '>
@@ -81,7 +67,6 @@ export default function Page3() {
                         <div><img className='w-[80%]' src={BANKINGCOLUMN} alt="Phone" /></div>
                         <div><img className='w-[75%] pl-4' src={BANKINGSTAIRS2} alt="Phone" />  </div>
                     </div>
-
 
                     <div className='flex flex-col justify-between items-center absoute w-[50%]  '>
                         <div className=' floating-icon  w-[100%]  pt-32 text-left  transition-all duration-500 ease-in-out transition-transform'>
@@ -93,7 +78,6 @@ export default function Page3() {
                         <div><img className='w-[100%] ' src={BANKINGPHONE} alt="Phone" />  </div>
                         <div><img className='w-[60%] ' src={BANKINGTUBE} alt="Phone" /></div>
                     </div>
-
 
                     <div className='flex flex-col relative justify-between items-center pr-4 w-[40%]  abslute'>
                         <div><img className='w-[100%] absolute right-0 mr-4' src={BANKINGTRACK2} alt="Phone" /></div>
