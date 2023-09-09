@@ -19,7 +19,7 @@ import THREAD from './assets_Page1/THREADS_ICON.png'
 
 
 import { useState } from 'react';
-// import ARROW from './assets_Page1/ARROW.png'
+import ARROW from './assets_Page1/ARROW.png'
 
 
 export default function Page1() {
@@ -132,7 +132,7 @@ export default function Page1() {
                         <img className='w-[100%]' src={LOGO} alt="Logo" />
                     </div>
 
-                    <div className=" text-xl ">
+                    <div className="text-xl ">
                         <button
                             className="text-[#00D54B]"
                             onClick={toggleMenu}
@@ -140,7 +140,7 @@ export default function Page1() {
                             ☰ Menu
                         </button>
                         {menuOpen && (
-                            <div className='flex gap-0 absolute left-0'>
+                            <div className='flex  absolute left-8'>
                                 <ul className=" z-[1] text-sm ml-0 mt-4 p-2 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
                                     <li>
                                         <button className="block border-b-[0.5px] border-gray-500  py-1 w-full">
@@ -222,23 +222,17 @@ export default function Page1() {
                         </div>
                     </div>
 
-                    <div className='px-2 -mb-[0%]  flex justify-between  items-start text-white  floating-icon'>
+                    <div className='px-2 -mb-[0%]  flex justify-between  items-end text-white  floating-icon'>
                         <img className='w-[24%] ml-[0%]' src={CUBES} alt="Phone" />
+                        <div className='flex animate-bounce pr-2 pl-8'>
+                            <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
+                        </div>
                         <img className='w-[28%]  mr-[0%]' src={INTROPILLAR} alt="Phone" />
                     </div>
                 </div>
 
                 <nav className=' bg-blak w-full text-white  flex flex-col  justify-between '>
-                    {/* <div className='flex animate-bounce pr-2 pl-8'>
-                        <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
-                    </div> */}
-
                     <div className='flex w-full grow justify-between grow'>
-                        {/* <div className='flex p-2 '>
-                            <p className='border-b-[0.5px] border-gray-700 font-AgrandirLight pb-2 text-[12px]  text-white text-left '>Brokerage services by Cash App Investing LLC, member FINRA / SIPC.
-                                See our BrokerCheck. Investing involves risk; you may lose money. Bitcoin trading offered by Cash App. Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC. Cash App facilitates banking services through Sutton Bank and Lincoln Savings Bank, Members FDIC.</p>
-                        </div> */}
-
                         <div className='flex gap-5 font-extrabold p-2  pb-4 text-xs bg-black'>
                             <button>
                                 <img className='w-[100%] ' src={THREAD} alt="Phone" />
