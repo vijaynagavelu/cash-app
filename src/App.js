@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className='flex flex-col w-full h-screen overflow-auto'>
-      <Page1 />
+      {/* <Page1 /> */}
       <Page2 />
       <Page3 />
       <Page4 />

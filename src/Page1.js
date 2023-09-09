@@ -34,7 +34,7 @@ export default function Page1() {
     return (
         <main>
 
-            <div className="App max-[701px]:hidden  flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
+            <div className="App max-[701px]:hidden relative flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
 
                 <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gay-800'>
                     <div>

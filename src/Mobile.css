@@ -50,11 +50,11 @@
     font-family: 'Agrandir';
 }
 
-.subPage2 {
-    background-image: url(/src/assets_Page2/Vector.png);
+.subPage2Mobile {
+    background-image: url(/src/assets_Page2/mobile/Vector.png);
     background-repeat: repeat-x;
     position: absolute;
-    height: 330px;
+    height: 200px;
     width: 100%;
     bottom: 0;
 }
