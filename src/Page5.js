@@ -99,14 +99,12 @@ export default function Page5() {
             <div className="App_Page5 min-[701px]:hidden  relative flex flex-col w-full overflow-hidden  bg-[#00d54b] h-screen text-white">
 
 
-                <div className='text-white'>
+                <div className='text-white mt-[6%]'>
                     <label className='text-white text-3xl mb-[10%]'>Investing</label>
                 </div>
 
-                <button className='z-[10] cursor-pointer' onClick={() => { setTrigger(!trigger) }}>{trigger}{trigger ? 'on' : 'off'}</button>
-
-                <div className=' relaive flex overflow-hidden w-[100%] -mt-[10%] items-center text-white '>
-                    <div className={`flex- flex-col  px-0  ${trigger ? 'translate-x-[90%] scale-50' : 'translate-x-[20%] scale-100'}  transition-all duration-500 ease-in-out`}>
+                <div className='flex overflow-hidden w-[90%] -mt-[18%] items-center text-white '>
+                    <div onClick={() => { setTrigger(!trigger) }} className={` cursor-pointer flex- flex-col  px-0  ${trigger ? 'translate-x-[160%] scale-[0.6]' : ' translate-x-[20%] scale-100'}  transition-all duration-500 ease-in-out`}>
                         <div className='text-left text-black'>
                             <label className='text-2xl '>Stocks</label>
                             <p className=' mt-[4%] font-AgrandirNarrow text-sm '>Whether you’re an expert or just getting started, Cash App is the fastest and most accessible way to invest in stocks. Start now with as little as $1. </p>
@@ -114,7 +112,7 @@ export default function Page5() {
                         <img className=' w-[100%]' src={STOCKS} alt="App" />
                     </div>
 
-                    <div className={`flex flex-col px-0 ${trigger ? ' -translate-x-[90%] scale-75' : 'translate-x-[10%] scale-[0.4] '} transition-all duration-500 ease-in-out`}>
+                    <div onClick={() => { setTrigger(!trigger) }} className={`cursor-pointer flex flex-col px-0 ${trigger ? ' -translate-x-[70%] scale-[0.7]' : 'translate-x-[20%] scale-[0.4] '} transition-all duration-500 ease-in-out`}>
                         <div className='text-left text-black'>
                             <label className='text-2xl '>Bitcoin</label>
                             <p className=' mt-[4%] font-AgrandirNarrow text-lg'>Cash App is the fastest way to convert dollars to bitcoin. From your home screen, six taps are all it takes to stack sats, buy an entire bitcoin, or just see what it’s all about. </p>
@@ -124,13 +122,42 @@ export default function Page5() {
                 </div>
 
 
-                {/* <div className='w-full absolute bottom-0  grow flex justify-end'>
+                <div className='w-full absolute bottom-[6%]  grow flex justify-end'>
                     <div className=' relative flex  items-end text-white bg-gay-700'>
-                        <img className='w-[47%]' src={GRAPH1} alt="Cash" />
-                        <img className=' w-[18%] ml-[35%]  mb-[15%]' src={GRAPH2} alt="App" />
-                        <img className=' w-[30%] -ml-[30%] mb-[1%]' src={GRAPH3} alt="App" />
+                        <img className='w-[55%]' src={GRAPH1} alt="Cash" />
+                        <img className=' w-[26%] ml-[20%]  mb-[15%]' src={GRAPH2} alt="App" />
+                        <img className=' w-[34%] -ml-[34%] mb-[1%]' src={GRAPH3} alt="App" />
                     </div>
-                </div> */}
+                </div>
+
+                <nav className=' w-full text-white flex flex-col grow items-end  justify-between '>
+                    <div className='flex w-full grow justify-between items-end'>
+                        <div className='flex gap-5 font-extrabold p-2  pb-4 text-xs'>
+                            <button>
+                                <img className='w-[100%] ' src={THREADBLACK} alt="Phone" />
+                            </button>
+                            <button>
+                                <img className='w-[100%] ' src={TWEETBLACK} alt="Phone" />
+                            </button>
+                            <button>
+                                <img className='w-[100%] ' src={INSTABLACK} alt="Phone" />
+                            </button>
+                        </div>
+
+                        <div className='flex items-end font-extrabold p-2   pb-4 text-xs'>
+                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms items-end px-2   border-r-2 border-white '>
+                                <span>
+                                    <img className='w-[100%]' src={APPLE} alt="Phone" />
+                                </span>
+                            </button>
+                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms  items-end px-2 '>
+                                <span>
+                                    <img className='w-[100%]' src={STORE} alt="Phone" />
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
 
             </div >
 
