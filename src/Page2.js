@@ -29,7 +29,7 @@ export default function Page2() {
     return (
         <main>
 
-            <div className="App_Page2 max-[700px]:hidden relative flex flex-col grow w-full overflow-hidden bg-white  h-screen text-white">
+            <div className="App_Page2  relative flex flex-col grow w-full overflow-hidden bg-white  h-screen text-white">
 
                 <div className='w-full subPage2 flex justify-between  items-end text-white '>
 
@@ -64,7 +64,7 @@ export default function Page2() {
 
             </div >
 
-            <div className="AppMobile   flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
+            <div className="AppMobile  hidden flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
 
                 <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gray-700'>
 

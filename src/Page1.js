@@ -19,7 +19,7 @@ import THREAD from './assets_Page1/THREADS_ICON.png'
 
 
 import { useState } from 'react';
-import ARROW from './assets_Page1/ARROW.png'
+// import ARROW from './assets_Page1/ARROW.png'
 
 
 export default function Page1() {
@@ -34,14 +34,14 @@ export default function Page1() {
     return (
         <main>
 
-            <div className="App max-[700px]:hidden  flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
+            <div className="App max-[701px]:hidden  flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
 
                 <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gay-800'>
                     <div>
                         <img className='w-[100%]' src={LOGO} alt="Phone" />
                     </div>
 
-                    <ul className='flex flex-wrap px-[4%] justify-center gap-5 font-extrabold	text-xs'>
+                    <ul className='flex flex-wrap px-[4%] justify-center gap-5 font-extraboltext-lg'>
                         <button >SIGN IN</button>
                         <button>LEGAL</button>
                         <button>LICENSES</button>
@@ -125,7 +125,7 @@ export default function Page1() {
 
             </div >
 
-            <div className="AppMobile flex flex-col w-full overflow-auto oveflow-x-hidden items-center  bg-black h-screen text-white">
+            <div className="AppMobile min-[701px]:hidden flex flex-col w-full overflow-y-auto oveflow-x-hidden items-center  bg-black h-screen text-white">
 
                 <nav className='flex w-full px-[4%] py-[4%]  items-center justify-between   border-b-[0.5px] border-gray-700 px-4'>
                     <div className='w-[5%] '>
@@ -140,53 +140,61 @@ export default function Page1() {
                             ☰ Menu
                         </button>
                         {menuOpen && (
-                            <ul className="absolute z-[1] text-sm ml-0 mt-4 p-2 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1 w-full">
-                                        SIGN IN
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1   w-full">
-                                        LEGAL
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
-                                        LICENSES
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
-                                        SECURITY
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
-                                        CAREERS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
-                                        PRESS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
-                                        SUPPORT
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
-                                        STATUS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
-                                        CODEBLOG
-                                    </button>
-                                </li>
-                            </ul>
+                            <div className='flex gap-0 absolute left-0'>
+                                <ul className=" z-[1] text-sm ml-0 mt-4 p-2 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1 w-full">
+                                            SIGN IN
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1   w-full">
+                                            LEGAL
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
+                                            LICENSES
+                                        </button>
+                                    </li>
+
+                                </ul>
+                                <ul className=" z-[1] text-sm ml-0 mt-4 p-2 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
+
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
+                                            SECURITY
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
+                                            CAREERS
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
+                                            PRESS
+                                        </button>
+                                    </li>
+                                </ul>
+                                <ul className=" z-[1] text-sm ml-0 mt-4 p-2 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
+                                            SUPPORT
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
+                                            STATUS
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button className="block border-b-[0.5px] border-gray-500  py-1  w-full">
+                                            CODEBLOG
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
                         )}
                     </div>
 
@@ -195,10 +203,10 @@ export default function Page1() {
                     </div>
                 </nav>
 
-                <div className='w-full  mt-[10%] -mb-[30%] grow flex flex-col  justify-evenly '>
-                    <div className='flex  w-full  justify-between items-start text-white  floating-icon'>
-                        <img className='w-[18%] ml-[12%]' src={CUBE} alt="Phone" />
-                        <img className='w-[20%] mr-[15%]' src={STAIRS} alt="Phone" />
+                <div className='flex flex-col grow justify-evenly '>
+                    <div className='flex px-2 w-full  justify-between items-start text-white  floating-icon'>
+                        <img className='w-[18%] ml-[0%]' src={CUBE} alt="Phone" />
+                        <img className='w-[20%] mr-[0%]' src={STAIRS} alt="Phone" />
                     </div>
 
                     <div className=' w-[100%]  relative flex justify-center items-center text-white '>
@@ -206,73 +214,32 @@ export default function Page1() {
                             <img className='w-[84%] ' src={CASH} alt="Cash" />
                             <img className=' invisible w-[10%]' src={CASH} alt="Cash" />
 
-                            <div className='w-[100%]  absolute -top-[22%] left-[28%] '>
-                                <img className='w-[48%]' src={PHONE} alt="Phone" />
+                            <div className='w-[44%]  -mt-[5%] absolute '>
+                                <img className='w-[100%]' src={PHONE} alt="Phone" />
                             </div>
 
                             <img className='relative w-[63%]' src={APP} alt="App" />
                         </div>
                     </div>
 
-                    <div className='w-full -mb-[0%]  flex justify-between  items-start text-white  floating-icon'>
-                        <img className='w-[24%] ml-[5%]' src={CUBES} alt="Phone" />
-                        <img className='w-[28%]  mr-[5%]' src={INTROPILLAR} alt="Phone" />
+                    <div className='px-2 -mb-[0%]  flex justify-between  items-start text-white  floating-icon'>
+                        <img className='w-[24%] ml-[0%]' src={CUBES} alt="Phone" />
+                        <img className='w-[28%]  mr-[0%]' src={INTROPILLAR} alt="Phone" />
                     </div>
                 </div>
 
-                <div className='w-full hidden  mb-[10%] grow flex flex-col  justify-evenly '>
-                    <div className='flex  w-full  justify-between items-start text-white  floating-icon'>
-                        <img className='w-[18%] ml-[12%]' src={CUBE} alt="Phone" />
-                        <img className='w-[20%] mr-[15%]' src={STAIRS} alt="Phone" />
-                    </div>
-
-                    <div className=' w-[100%]  relative flex justify-center items-center text-white '>
-                        <div className='flex flex-col items-center'>
-                            <img className='w-[84%] ' src={CASH} alt="Cash" />
-                            <img className=' invisible w-[10%]' src={CASH} alt="Cash" />
-
-                            <div className='w-[100%]  absolute -top-[22%] left-[28%] '>
-                                <img className='w-[48%]' src={PHONE} alt="Phone" />
-                            </div>
-
-                            <img className='relative w-[63%]' src={APP} alt="App" />
-                        </div>
-                    </div>
-
-                    <div className='w-full -mb-[0%]  flex justify-between  items-start text-white  floating-icon'>
-                        <img className='w-[24%] ml-[5%]' src={CUBES} alt="Phone" />
-                        <img className='w-[28%]  mr-[5%]' src={INTROPILLAR} alt="Phone" />
-                    </div>
-                </div>
-
-                <nav className='w-full invisibl translate-y-44 absolut bg-black text-white  bottom-0  flex flex-col justify-between items-center'>
-                    <div className='flex flex-col text-left p-2'>
-                        <label className='pb-4'>Get it on</label>
-                        <ul className='flex justify-between gap-5 font-extrabold text-xs '>
-                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-2 py-1.5 rounded-lg border-2 border-white bg-black'>
-                                <span>
-                                    <img className='w-[90%]' src={APPLE} alt="Phone" />
-                                </span>APP STORE</button>
-                            <button className='flex gap-2 hover:-translate-y-1 hover:scale-105 transition-all duration-700ms items-end px-2 py-1.5 rounded-lg border-2 border-white  bg-black'>
-                                <span>
-                                    <img className='w-[90%]' src={STORE} alt="Phone" />
-                                </span>GOOGLE PLAY</button>
-                        </ul>
-                    </div>
-
-
-
+                <nav className=' bg-blak w-full text-white  flex flex-col  justify-between '>
                     {/* <div className='flex animate-bounce pr-2 pl-8'>
                         <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
                     </div> */}
 
-                    <div className='flex flex-col'>
-                        <div className='flex p-2 '>
+                    <div className='flex w-full grow justify-between grow'>
+                        {/* <div className='flex p-2 '>
                             <p className='border-b-[0.5px] border-gray-700 font-AgrandirLight pb-2 text-[12px]  text-white text-left '>Brokerage services by Cash App Investing LLC, member FINRA / SIPC.
                                 See our BrokerCheck. Investing involves risk; you may lose money. Bitcoin trading offered by Cash App. Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC. Cash App facilitates banking services through Sutton Bank and Lincoln Savings Bank, Members FDIC.</p>
-                        </div>
+                        </div> */}
 
-                        <ul className='flex gap-5 font-extrabold p-2  pb-4 text-xs'>
+                        <div className='flex gap-5 font-extrabold p-2  pb-4 text-xs bg-black'>
                             <button>
                                 <img className='w-[100%] ' src={THREAD} alt="Phone" />
                             </button>
@@ -282,7 +249,20 @@ export default function Page1() {
                             <button>
                                 <img className='w-[100%] ' src={INSTA} alt="Phone" />
                             </button>
-                        </ul>
+                        </div>
+
+                        <div className='flex items-end  font-extrabold p-2   pb-4 text-xs bg-black'>
+                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms items-end px-2   border-r-2 border-white '>
+                                <span>
+                                    <img className='w-[100%]' src={APPLE} alt="Phone" />
+                                </span>
+                            </button>
+                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms  items-end px-2 '>
+                                <span>
+                                    <img className='w-[100%]' src={STORE} alt="Phone" />
+                                </span>
+                            </button>
+                        </div>
                     </div>
                 </nav>
 

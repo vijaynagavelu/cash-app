@@ -32,7 +32,7 @@ export default function Page3() {
     return (
 
         <main>
-            <div className="App_Page3 max-[700px]:hidden relative flex w-full overflow-hidden bg-[#00d54b]  h-screen text-white">
+            <div className="App_Page3  relative flex w-full overflow-hidden bg-[#00d54b]  h-screen text-white">
 
                 <div className='w-full flex grow justify-between  text-white '>
 
@@ -72,7 +72,7 @@ export default function Page3() {
             </div >
 
 
-            <div className="AppMobile   flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
+            <div className="AppMobile hidden  flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
 
                 <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gray-700'>
 

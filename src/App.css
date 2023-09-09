@@ -96,6 +96,6 @@
 
 
 body {
-  overflow: hidden;
+  overflow: auto;
   background-color: rgb(58, 55, 55);
 }

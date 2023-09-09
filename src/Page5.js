@@ -29,7 +29,7 @@ export default function Page5() {
 
     return (
         <main>
-            <div className="App_Page5 max-[700px]:hidden relative flex flex-col w-full overflow-hidden  bg-[#00d54b] h-screen text-white">
+            <div className="App_Page5  relative flex flex-col w-full overflow-hidden  bg-[#00d54b] h-screen text-white">
 
                 <div className='w-full  grow flex flex-col justify-center'>
                     <div className=' relative flex  items-end text-white bg-gay-700'>
@@ -102,7 +102,7 @@ export default function Page5() {
                 </nav>
             </div >
 
-            <div className="AppMobile   flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
+            <div className="AppMobile hidden flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
 
                 <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gray-700'>
 
