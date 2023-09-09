@@ -38,7 +38,7 @@ export default function Page1() {
 
                 <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gay-800'>
                     <div>
-                        <img className='w-[100%]' src={LOGO} alt="Phone" />
+                        <img className='w-[100%]' src={LOGO} alt="LOGO" />
                     </div>
 
                     <ul className='flex flex-wrap px-[4%] justify-center gap-5 font-extraboltext-lg'>
@@ -54,70 +54,76 @@ export default function Page1() {
                     </ul>
 
                     <div>
-                        <img className='w-[100%]' src={EYE} alt="Phone" />
+                        <img className='w-[100%]' src={EYE} alt="EYE" />
                     </div>
                 </nav>
 
-                <div className='w-full grow flex flex-col justify-between'>
+                <div className='w-full grow flex flex-col justify-around'>
 
-                    <div className='flex w-full  justify-between items-start text-white  floating-icon'>
-                        <img className=' ml-[12%] w-[6%]' src={CUBE} alt="Phone" />
-                        <img className='w-[15%] mr-[15%]' src={STAIRS} alt="Phone" />
+                    <div className='flex w-full px-[15%] -mb-[5%] justify-between items-start text-white  floating-icon'>
+                        <img className=' w-[8%] ' src={CUBE} alt="CUBE" />
+                        <img className='w-[18%] ' src={STAIRS} alt="STAIRS" />
                     </div>
 
-                    <div className='-mt-[10%] -mb-[4%] -ml-[6%]  relative flex justify-center items-center text-white '>
-                        <div className='w-[48%] flex flex-col items-center'>
-                            <img className='w-[84%]' src={CASH} alt="Cash" />
-                            <img className=' invisible w-[10%]' src={CASH} alt="Cash" />
+                    <div className='w-full justify-center flex '>
+                        <div className=' w-[60%]  reltive flex justify-center items-center text-white '>
+                            <div className='flex flex-col relative items-center'>
+                                <div className='w-[130%]'> <img className='w-[100%]' src={CASH} alt="Cash" /></div>
+                                <img className=' invisible w-[10%]' src={CASH} alt="Cash" />
 
-                            <div className='w-[49%] absolute -top-[22%] left-[38.7%] '>
-                                <img className='w-[48%]' src={PHONE} alt="Phone" />
+                                <div className='w-[72%]  flex  absolute -mt-[11%]'>
+                                    <img className='w-[100%]' src={PHONE} alt="Phone" />
+                                </div>
+
+                                <div className='w-[100%]'><img className='relative w-[100%]' src={APP} alt="App" /></div>
                             </div>
-
-                            <img className='relative w-[63%]' src={APP} alt="App" />
                         </div>
                     </div>
 
-                    <div className='w-full -mb-[0%]  flex justify-between  items-start text-white  floating-icon'>
-                        <img className='w-[14%] ml-[12%]' src={CUBES} alt="Phone" />
-                        <img className='w-[22%]  mr-[22%]' src={INTROPILLAR} alt="Phone" />
+                    <div className='px-[15%] -mt-[4%]  flex justify-between  items-end text-white  floating-icon'>
+                        <img className='w-[20%] mb-[8%]' src={CUBES} alt="CUBES" />
+                        <img className='w-[34%]  ' src={INTROPILLAR} alt="INTROPILLAR" />
                     </div>
                 </div>
 
-                <nav className='w-full text-white absolute bottom-0  flex justify-between items-center  px-14'>
+                <nav className='w-full text-white absolute bottom-0  flex justify-between items-center  px-14 lg:pb-0 sm:mb-4'>
 
                     <div className='flex '>
                         <ul className='flex gap-5 font-extrabold text-xs '>
-                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-6 py-3.5 rounded-lg border-2 border-white bg-black'>
+                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-4 py-3.5 rounded-lg border-2 border-white bg-black'>
                                 <span>
-                                    <img className='w-[100%]' src={APPLE} alt="Phone" />
-                                </span>APP STORE</button>
+                                    <img className='w-[100%]' src={APPLE} alt="APPLE" />
+                                </span>
+                                <span className='lg:flex sm:hidden'>APP STORE </span>
+                            </button>
                             <button className='flex gap-2 hover:-translate-y-1 hover:scale-105 transition-all duration-700ms items-end px-4 py-3.5 rounded-lg border-2 border-white  bg-black'>
                                 <span>
-                                    <img className='w-[100%]' src={STORE} alt="Phone" />
-                                </span>GOOGLE PLAY</button>
+                                    <img className='w-[100%]' src={STORE} alt="STORE" />
+                                </span>
+                                <span className='lg:flex sm:hidden'> GOOGLE PLAY</span>
+                            </button>
                         </ul>
                     </div>
 
                     <div className='flex animate-bounce pr-2 pl-8'>
-                        <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
+                        <img tabIndex={0} className='w-[100%]' src={ARROW} alt="ARROW" />
                     </div>
 
-                    <div className='flex '>
-                        <div className='flex pr-4 pb-2 w-[410px]'>
+                    <div className='flex'>
+                        <div className='lg:flex pr-4 pb-2 w-[410px] sm:hidden'>
                             <p className=' font-AgrandirLight font-semibold text-xs  text-white text-left m-0'>Brokerage services by Cash App Investing LLC, member FINRA / SIPC.
                                 See our BrokerCheck. Investing involves risk; you may lose money. Bitcoin trading offered by Cash App. Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC. Cash App facilitates banking services through Sutton Bank and Lincoln Savings Bank, Members FDIC.</p>
                         </div>
 
-                        <ul className='flex gap-5 font-extrabold	text-xs'>
+                        <ul className='flex gap-5 font-extrabold text-xs'>
                             <button>
-                                <img className='w-[100%] ' src={THREAD} alt="Phone" />
+                                <img className='w-[100%] ' src={THREAD} alt="THREAD" />
                             </button>
                             <button>
-                                <img className='w-[100%] ' src={TWEET} alt="Phone" />
+                                <img className='w-[100%] ' src={TWEET} alt="TWEET" />
                             </button>
                             <button>
-                                <img className='w-[100%] ' src={INSTA} alt="Phone" />
+                                <img className='w-[100%] ' src={INSTA} alt="INSTA" />
                             </button>
                         </ul>
                     </div>
@@ -125,14 +131,15 @@ export default function Page1() {
 
             </div >
 
+
             <div className="AppMobile min-[701px]:hidden flex flex-col w-full overflow-y-auto oveflow-x-hidden items-center  bg-black h-screen text-white">
 
-                <nav className='flex w-full px-[4%] py-[4%]  items-center justify-between   border-b-[0.5px] border-gray-700 px-4'>
+                <nav className='flex w-full px-[4%] py-[4%]  items-center justify-between px-4'>
                     <div className='w-[5%] '>
-                        <img className='w-[100%]' src={LOGO} alt="Logo" />
+                        <img className='w-[100%]' src={LOGO} alt="LOGO" />
                     </div>
 
-                    <div className="text-xl ">
+                    <div className="text-xl relative border-b-[0.5px] border-gray-500">
                         <button
                             className="text-[#00D54B]"
                             onClick={toggleMenu}
@@ -140,7 +147,7 @@ export default function Page1() {
                             ☰ Menu
                         </button>
                         {menuOpen && (
-                            <div className='flex  absolute left-8'>
+                            <div className='flex  absolute -ml-[122%] mt-[0%]'>
                                 <ul className=" z-[1] text-sm ml-0 mt-4 p-2 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
                                     <li>
                                         <button className="block border-b-[0.5px] border-gray-500  py-1 w-full">
@@ -199,35 +206,35 @@ export default function Page1() {
                     </div>
 
                     <div className='w-[10%]'>
-                        <img className='w-[100%] ml-[0%]' src={EYE} alt="Eye" />
+                        <img className='w-[100%] ml-[0%]' src={EYE} alt="EYE" />
                     </div>
                 </nav>
 
                 <div className='flex flex-col grow justify-evenly '>
-                    <div className='flex px-2 w-full  justify-between items-start text-white  floating-icon'>
-                        <img className='w-[18%] ml-[0%]' src={CUBE} alt="Phone" />
-                        <img className='w-[20%] mr-[0%]' src={STAIRS} alt="Phone" />
+                    <div className='flex px-6 w-full  justify-between items-start text-white  floating-icon'>
+                        <img className='w-[14%] ml-[0%]' src={CUBE} alt="CUBE" />
+                        <img className='w-[20%] mr-[0%]' src={STAIRS} alt="STAIRS" />
                     </div>
 
                     <div className=' w-[100%]  relative flex justify-center items-center text-white '>
                         <div className='flex flex-col items-center'>
-                            <img className='w-[84%] ' src={CASH} alt="Cash" />
-                            <img className=' invisible w-[10%]' src={CASH} alt="Cash" />
+                            <img className='w-[84%] ' src={CASH} alt="CASH" />
+                            <img className=' invisible w-[10%]' src={CASH} alt="CASH" />
 
                             <div className='w-[44%]  -mt-[5%] absolute '>
-                                <img className='w-[100%]' src={PHONE} alt="Phone" />
+                                <img className='w-[100%]' src={PHONE} alt="PHONE" />
                             </div>
 
-                            <img className='relative w-[63%]' src={APP} alt="App" />
+                            <img className='relative w-[63%]' src={APP} alt="APP" />
                         </div>
                     </div>
 
-                    <div className='px-2 -mb-[0%]  flex justify-between  items-end text-white  floating-icon'>
-                        <img className='w-[24%] ml-[0%]' src={CUBES} alt="Phone" />
+                    <div className='px-6 -mb-[0%]  flex justify-between  items-end text-white  floating-icon'>
+                        <img className='w-[24%] ml-[0%]' src={CUBES} alt="CUBES" />
                         <div className='flex animate-bounce pr-2 pl-8'>
-                            <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
+                            <img tabIndex={0} className='w-[100%]' src={ARROW} alt="ARROW" />
                         </div>
-                        <img className='w-[28%]  mr-[0%]' src={INTROPILLAR} alt="Phone" />
+                        <img className='w-[28%]  mr-[0%]' src={INTROPILLAR} alt="INTROPILLAR" />
                     </div>
                 </div>
 
@@ -235,25 +242,25 @@ export default function Page1() {
                     <div className='flex w-full grow justify-between grow'>
                         <div className='flex gap-5 font-extrabold p-2  pb-4 text-xs bg-black'>
                             <button>
-                                <img className='w-[100%] ' src={THREAD} alt="Phone" />
+                                <img className='w-[100%] ' src={THREAD} alt="THREAD" />
                             </button>
                             <button>
-                                <img className='w-[100%] ' src={TWEET} alt="Phone" />
+                                <img className='w-[100%] ' src={TWEET} alt="TWEET" />
                             </button>
                             <button>
-                                <img className='w-[100%] ' src={INSTA} alt="Phone" />
+                                <img className='w-[100%] ' src={INSTA} alt="INSTA" />
                             </button>
                         </div>
 
                         <div className='flex items-end  font-extrabold p-2   pb-4 text-xs bg-black'>
                             <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms items-end px-2   border-r-2 border-white '>
                                 <span>
-                                    <img className='w-[100%]' src={APPLE} alt="Phone" />
+                                    <img className='w-[100%]' src={APPLE} alt="APPLE" />
                                 </span>
                             </button>
                             <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms  items-end px-2 '>
                                 <span>
-                                    <img className='w-[100%]' src={STORE} alt="Phone" />
+                                    <img className='w-[100%]' src={STORE} alt="STORE" />
                                 </span>
                             </button>
                         </div>

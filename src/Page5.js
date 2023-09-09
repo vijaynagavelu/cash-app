@@ -56,29 +56,33 @@ export default function Page5() {
                     </div>
                 </div>
 
-                <nav className='w-full text-black absolute bottom-0  flex justify-between items-center  px-14'>
+                <nav className='w-full text-black absolute bottom-0  flex justify-between items-center  px-14 lg:pb-0 sm:mb-4'>
 
                     <div className='flex '>
                         <ul className='flex  gap-5 font-extrabold text-xs '>
-                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-6 py-3.5 rounded-lg border-2 border-black bg-white'>
+                            <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-4 py-3.5 rounded-lg border-2 border-black bg-white'>
                                 <span>
                                     <img className='w-[100%]' src={APPLE} alt="Phone" />
-                                </span>APP STORE</button>
+                                </span>
+                                <span className='lg:flex sm:hidden'>APP STORE </span>
+                            </button>
                             <button className='flex hover:-translate-y-1 hover:scale-105 transition-all duration-700ms gap-2 items-end px-4 py-3.5 rounded-lg border-2 border-black  bg-white'>
                                 <span>
                                     <img className='w-[100%]' src={STORE} alt="Phone" />
-                                </span>GOOGLE PLAY</button>
+                                </span>
+                                <span className='lg:flex sm:hidden'> GOOGLE PLAY</span>
+                            </button>
                         </ul>
                     </div>
 
 
                     <div className='flex '>
-                        <div className='flex pr-4 pb-2 w-[410px]'>
+                        <div className='lg:flex pr-4 pb-2 w-[410px] sm:hidden'>
                             <p className=' font-AgrandirLight font-semibold text-xs  text-[#606060] text-left m-0'>Brokerage services by Cash App Investing LLC, member FINRA / SIPC.
                                 See our BrokerCheck. Investing involves risk; you may lose money. Bitcoin trading offered by Cash App. Cash App Investing does not trade bitcoin and Cash App is not a member of FINRA or SIPC. Cash App facilitates banking services through Sutton Bank and Lincoln Savings Bank, Members FDIC.</p>
                         </div>
 
-                        <ul className='flex gap-5 font-extrabold	text-xs'>
+                        <ul className='flex gap-5 font-extrabold text-xs'>
                             <button>
                                 <img className='w-[100%] ' src={THREADBLACK} alt="Phone" />
                             </button>
@@ -117,7 +121,7 @@ export default function Page5() {
                             <label className='text-2xl '>Bitcoin</label>
                             <p className=' mt-[4%] font-AgrandirNarrow text-lg'>Cash App is the fastest way to convert dollars to bitcoin. From your home screen, six taps are all it takes to stack sats, buy an entire bitcoin, or just see what it’s all about. </p>
                         </div>
-                        <img className=' w-[100%] ' src={STOCKS} alt="App" />
+                        <img className=' w-[100%] ' src={BITCOIN} alt="App" />
                     </div>
                 </div>
 
