@@ -1,5 +1,7 @@
 import './App.css';
 import './index.css';
+import './Mobile.css';
+
 import PHONE from './assets_Page1/phone.png'
 import CASH from './assets_Page1/CASH.png'
 import APP from './assets_Page1/APP.png'
@@ -123,207 +125,12 @@ export default function Page1() {
 
             </div >
 
-            <div className="Ap  bg-gray-800 flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
+            <div className="AppMobile   flex flex-col w-full overflow-hidden items-center  bg-black h-screen text-white">
 
+                <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gray-700'>
 
-                {/* <nav className="bg-blue-500 p-4">
-                    <div className="container mx-auto flex justify-between items-center">
-                        <div className="text-white font-semibold text-xl"></div>
-                        <button
-                            className="text-white hover:text-gray-300"
-                            onClick={toggleMenu}
-                        >
-                            Menu
-                        </button>
-                        {menuOpen && (
-                            <ul className="space-x-4">
-                                <li className="text-white hover:text-gray-300">Home</li>
-                                <li className="text-white hover:text-gray-300">About</li>
-                                <li className="text-white hover:text-gray-300">Services</li>
-                                <li className="text-white hover:text-gray-300">Contact</li>
-                            </ul>
-                        )}
-                    </div>
-                </nav> */}
-
-                <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gray-800'>
-
-                    <div>
-                        <img className='w-[30%]' src={LOGO} alt="Logo" />
-                    </div>
-
-                    <div className="relative text-xs">
-                        <button
-                            className="text-[#00D54B]"
-                            onClick={toggleMenu}
-                        >
-                            ☰ Menu
-                        </button>
-                        {menuOpen && (
-                            <ul className="absolute text-[7px] ml-3 mt-1 px-1 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SIGN IN
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500    w-full">
-                                        LEGAL
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        LICENSES
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SECURITY
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        CAREERS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        PRESS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SUPPORT
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        STATUS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        CODEBLOG
-                                    </button>
-                                </li>
-                            </ul>
-                        )}
-                    </div>
-
-                    <div className="relative text-base">
-                        <button
-                            className="text-[#00D54B]"
-                            onClick={toggleMenu}
-                        >
-                            ☰ Menu
-                        </button>
-                        {menuOpen && (
-                            <ul className="absolute text-[7px] ml-3 mt-1 px-1 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SIGN IN
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500    w-full">
-                                        LEGAL
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        LICENSES
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SECURITY
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        CAREERS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        PRESS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SUPPORT
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        STATUS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        CODEBLOG
-                                    </button>
-                                </li>
-                            </ul>
-                        )}
-                    </div>
-
-                    <div className="relative text-lg">
-                        <button
-                            className="text-[#00D54B]"
-                            onClick={toggleMenu}
-                        >
-                            ☰ Menu
-                        </button>
-                        {menuOpen && (
-                            <ul className="absolute text-[7px] ml-3 mt-1 px-1 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SIGN IN
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500    w-full">
-                                        LEGAL
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        LICENSES
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SECURITY
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        CAREERS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        PRESS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        SUPPORT
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        STATUS
-                                    </button>
-                                </li>
-                                <li>
-                                    <button className="block border-b-[0.5px] border-gray-500   w-full">
-                                        CODEBLOG
-                                    </button>
-                                </li>
-                            </ul>
-                        )}
+                    <div className='w-[5%]'>
+                        <img className='w-[100%]' src={LOGO} alt="Logo" />
                     </div>
 
                     <div className="relative text-xl">
@@ -334,7 +141,7 @@ export default function Page1() {
                             ☰ Menu
                         </button>
                         {menuOpen && (
-                            <ul className="absolute text-sm ml-3 mt-1 px-1 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
+                            <ul className="absolute text-base ml-3 mt-1 px-1 text-[#00D54B] bg-black border border-green-300 rounded shadow-lg">
                                 <li>
                                     <button className="block border-b-[0.5px] border-gray-500   w-full">
                                         SIGN IN
@@ -384,36 +191,12 @@ export default function Page1() {
                         )}
                     </div>
 
-
-
-                    <div>
-                        <img className='w-[30%]' src={EYE} alt="Eye" />
+                    <div className='w-[10%]'>
+                        <img className='w-[100%] ml-[0%]' src={EYE} alt="Eye" />
                     </div>
                 </nav>
 
-                {/* <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gay-800'>
-                    <div>
-                        <img className='w-[100%]' src={LOGO} alt="Phone" />
-                    </div>
-
-                    <ul className='flex flex-wrap px-[4%] justify-center gap-5 font-extrabold	text-xs'>
-                        <button >SIGN IN</button>
-                        <button>LEGAL</button>
-                        <button>LICENSES</button>
-                        <button>SECURITY</button>
-                        <button>CAREERS</button>
-                        <button>PRESS</button>
-                        <button>SUPPORT</button>
-                        <button>STATUS</button>
-                        <button>CODEBLOG</button>
-                    </ul>
-
-                    <div>
-                        <img className='w-[100%]' src={EYE} alt="Phone" />
-                    </div>
-                </nav> */}
-
-                {/* <div className='w-full grow flex flex-col justify-between'>
+                {/* <div className='w-full grow flex flex-col mt-[50%] justify-betwen '>
 
                     <div className='flex w-full  justify-between items-start text-white  floating-icon'>
                         <img className=' ml-[12%] w-[6%]' src={CUBE} alt="Phone" />
