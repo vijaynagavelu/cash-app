@@ -33,7 +33,7 @@ export default function Page4() {
                     </div>
 
 
-                    <div className='absolute floating-icon  2xl:w-[20%]  2xl:mt-[18%] 2xl:ml-[20%] text-left sm:mt-[20%] sm:ml-[10%] sm:w-[33%] transition-all duration-500 ease-in-out transition-transform'>
+                    <div className='absolute floating-icon  2xl:w-[20%]  2xl:mt-[18%] 2xl:ml-[20%] text-left sm:mt-[20%] sm:ml-[10%] sm:w-[33%] transition-all duration-500 ease-in-out '>
                         <label className='text-[#00d54b] text-4xl mb-[10%]'>Cash Card & Boost</label>
                         <p className='text-white text-base mt-[2%] font-AgrandirNarrow '>Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing
                             and account number. </p>
@@ -60,7 +60,7 @@ export default function Page4() {
                     </div>
 
 
-                    <div className='absolute floating-icon p-10  text-left transition-all duration-500 ease-in-out transition-transform'>
+                    <div className='absolute floating-icon p-10  text-left transition-all duration-500 ease-in-out '>
                         <label className='text-[#00d54b] text-4xl mb-[10%]'>Cash Card & Boost</label>
                         <p className='text-white text-lg mt-[2%] font-AgrandirNarrow '>Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing
                             and account number. </p>

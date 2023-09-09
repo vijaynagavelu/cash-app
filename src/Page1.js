@@ -99,9 +99,9 @@ export default function Page1() {
                         </ul>
                     </div>
 
-                    {/* <div className='flex animate-bounce pr-2 pl-8'>
-                    <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
-                </div> */}
+                    <div className='flex animate-bounce pr-2 pl-8'>
+                        <img tabIndex={0} className='w-[100%]' src={ARROW} alt="Phone" />
+                    </div>
 
                     <div className='flex '>
                         <div className='flex pr-4 pb-2 w-[410px]'>

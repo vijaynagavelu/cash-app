@@ -34,7 +34,7 @@ export default function Page2() {
                     </div>
 
                     <div className='flex w-[50%]'>
-                        <div className='absolute floating-icon 2xl:mt-[8%] text-left ml-[22%] w-[20%] xl:mt-[2%] lg:-mt-[4%] md:-mt-[16%] sm:-mt-[30%]  transition-all duration-500 ease-in-out transition-transform'>
+                        <div className='absolute floating-icon 2xl:mt-[8%] text-left ml-[22%] w-[20%] xl:mt-[2%] lg:-mt-[4%] md:-mt-[16%] sm:-mt-[30%]  transition-all duration-500 ease-in-out '>
                             <label className='text-green-500 text-4xl mb-[10%]'>Payments</label>
                             <p className='text-black text-base mt-[2%] font-AgrandirNarrow '>Send and receive money with anyone, donate  to an important cause, or tip professionals.
                                 Just enter a $cashtag, phone number, or
@@ -62,7 +62,7 @@ export default function Page2() {
 
                 <div className='flex flex-col z-[0] mb-[50%] items-center w-[100%] '>
 
-                    <div className='floating-icon text-left w-[100%] p-12 transition-all duration-500 ease-in-out transition-transform'>
+                    <div className='floating-icon text-left w-[100%] p-12 transition-all duration-500 ease-in-out '>
                         <label className='text-green-500 text-4xl'>Payments</label>
                         <p className='text-black text-lg  font-AgrandirNarrow '>Send and receive money with anyone, donate  to an important cause, or tip professionals.
                             Just enter a $cashtag, phone number, or

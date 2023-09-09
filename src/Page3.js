@@ -32,7 +32,7 @@ export default function Page3() {
                     <div className='flex flex-col justify-end items-center absoute w-[50%]  '>
                         <div><img className='w-[75%] -ml-[5%] -mb-[45%] mt-[0%]' src={BANKINGTRACK1} alt="Phone" /></div>
 
-                        <div className='absolute floating-icon e w-[20%] floatig-icon 2xl:mb-[19%]  text-left 2xl:-ml-[22%]  sm:mb-[42%] sm:ml-[20%] sm:w-[20%] transition-all duration-500 ease-in-out transition-transform'>
+                        <div className='absolute floating-icon e w-[20%] floatig-icon 2xl:mb-[19%]  text-left 2xl:-ml-[22%]  sm:mb-[42%] sm:ml-[20%] sm:w-[20%] transition-all duration-500 ease-in-out '>
                             <label className='text-white text-4xl mb-[10%]'>Banking</label>
                             <p className='text-black text-base mt-[2%] font-AgrandirNarrow '>Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing
                                 and account number. </p>
@@ -69,7 +69,7 @@ export default function Page3() {
                     </div>
 
                     <div className='flex flex-col justify-between items-center absoute w-[50%]  '>
-                        <div className=' floating-icon  w-[100%]  pt-32 text-left  transition-all duration-500 ease-in-out transition-transform'>
+                        <div className=' floating-icon  w-[100%]  pt-32 text-left  transition-all duration-500 ease-in-out '>
                             <label className='text-white text-4xl mb-[10%]'>Banking</label>
                             <p className='text-black text-lg mt-[2%] font-AgrandirNarrow '>Receive your paycheck, tax returns, and other direct deposits up to two days early using your Cash App routing
                                 and account number. </p>
