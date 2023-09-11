@@ -34,7 +34,7 @@ export default function Page1() {
     return (
         <main>
 
-            <div className="App max-[701px]:hidden  relative flex flex-col w-full overflow-hidden items-center h-min  bg-black  text-white">
+            <div className="App max-[701px]:hidden  relative flex flex-col w-full overflow-x-hidden items-center h-screen  bg-black  text-white">
 
                 <nav className='flex w-full px-[4%] py-[1%] items-center justify-between bg-gay-800'>
                     <div>
@@ -167,7 +167,7 @@ export default function Page1() {
             </div >
 
 
-            <div className="AppMobile min-[701px]:hidden flex flex-col w-full overflow-y-auto oveflow-x-hidden items-center h-min  bg-black  text-white">
+            <div className="AppMobile min-[701px]:hidden flex flex-col w-full overflow-y-auto oveflow-x-hidden items-center h-screen  bg-black  text-white">
 
                 <nav className='flex w-full px-[4%] py-[4%]  items-center justify-between px-4'>
                     <div className='w-[5%] '>
