@@ -20,16 +20,16 @@ export default function Page4() {
                 <div className='w-full flex grow justify-between  text-white '>
 
                     <div className='flex flex-col  justify-end items-center absoute bottom-0 w-[34%]'>
-                        <div><img className='w-[80%] ' src={BOOSTSTAIRS2} alt="Phone" /></div>
+                        <div><img className='w-[80%] ' src={BOOSTSTAIRS2} alt="background" /></div>
                     </div>
 
                     <div className='flex justify-end items-end z-[51]  w-[80%]  ml-[0%] '>
-                        <div><img className='w-[50%] ml-[25%] mb-[20%] ' src={BOOSTPHONE} alt="Phone" />  </div>
-                        <div><img className='w-[55%] -ml-[20%] mb-[200%] floating-icon' src={BURGER} alt="Phone" /></div>
-                        <div><img className='w-[100%] -ml-[80%] mb-[150%] floating-icon' src={COFFEE} alt="Phone" /></div>
-                        <div><img className='w-[65%] -ml-[110%] mb-[280%] floating-icon' src={CARD} alt="Phone" /></div>
-                        <div><img className='w-[60%] -ml-[130%] mb-[410%] floating-icon' src={HAND} alt="Phone" /></div>
-                        <div><img className='w-[60%] -ml-[85%] mb-[140%] floating-icon' src={BOOSTSHOE} alt="Phone" /></div>
+                        <div><img className='w-[50%] ml-[25%] mb-[20%] ' src={BOOSTPHONE} alt="background" />  </div>
+                        <div><img className='w-[55%] -ml-[20%] mb-[200%] floating-icon' src={BURGER} alt="background" /></div>
+                        <div><img className='w-[100%] -ml-[80%] mb-[150%] floating-icon' src={COFFEE} alt="background" /></div>
+                        <div><img className='w-[65%] -ml-[110%] mb-[280%] floating-icon' src={CARD} alt="background" /></div>
+                        <div><img className='w-[60%] -ml-[130%] mb-[410%] floating-icon' src={HAND} alt="background" /></div>
+                        <div><img className='w-[60%] -ml-[85%] mb-[140%] floating-icon' src={BOOSTSHOE} alt="background" /></div>
                     </div>
 
 
@@ -40,7 +40,7 @@ export default function Page4() {
                     </div>
 
                     <div className='flex flex-col justify-end items-center right-0 bottom-0 w-[64%] -ml-[80%] '>
-                        <div><img className='w-[100%] -ml-[0%]  -mb-[0%]' src={BOOSTSTAIRS1} alt="Phone" /></div>
+                        <div><img className='w-[100%] -ml-[0%]  -mb-[0%]' src={BOOSTSTAIRS1} alt="background" /></div>
                     </div>
 
                 </div>
@@ -51,12 +51,12 @@ export default function Page4() {
                 <div className='w-full flex grow justify-between  text-white '>
 
                     <div className='flex grow justify-en items-end z-[51]  w-[100%]  ml-[0%] '>
-                        <div><img className='w-[70%] mb-[30%]' src={BOOSTPHONE} alt="Phone" />  </div>
-                        <div><img className='w-[100%] mb-[280%] -ml-[30%]  floating-icon' src={BURGER} alt="Phone" /></div>
-                        <div className='scale-[2]'><img className='w-[100%] mb-[185%] -ml-[10%] floating-icon' src={COFFEE} alt="Phone" /></div>
-                        <div><img className='w-[100%]  mb-[410%] -ml-[90%] floating-icon' src={CARD} alt="Phone" /></div>
-                        <div><img className='w-[100%] -ml-[80%] mb-[600%] floating-icon' src={HAND} alt="Phone" /></div>
-                        <div><img className='w-[100%] mb-[200%] floating-icon' src={BOOSTSHOE} alt="Phone" /></div>
+                        <div><img className='w-[70%] mb-[30%]' src={BOOSTPHONE} alt="background" />  </div>
+                        <div><img className='w-[100%] mb-[280%] -ml-[30%]  floating-icon' src={BURGER} alt="background" /></div>
+                        <div className='scale-[2]'><img className='w-[100%] mb-[185%] -ml-[10%] floating-icon' src={COFFEE} alt="background" /></div>
+                        <div><img className='w-[100%]  mb-[410%] -ml-[90%] floating-icon' src={CARD} alt="background" /></div>
+                        <div><img className='w-[100%] -ml-[80%] mb-[600%] floating-icon' src={HAND} alt="background" /></div>
+                        <div><img className='w-[100%] mb-[200%] floating-icon' src={BOOSTSHOE} alt="background" /></div>
                     </div>
 
 
@@ -67,7 +67,7 @@ export default function Page4() {
                     </div>
 
                     <div className='flex absolute flex-col justify-end items-center right-0 bottom-0 w-[120%] -ml-[80%] '>
-                        <div><img className='w-[100%] -ml-[0%]  -mb-[0%]' src={BOOSTSTAIRS1} alt="Phone" /></div>
+                        <div><img className='w-[100%] -ml-[0%]  -mb-[0%]' src={BOOSTSTAIRS1} alt="background" /></div>
                     </div>
 
                 </div>
