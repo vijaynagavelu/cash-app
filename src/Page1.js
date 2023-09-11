@@ -58,7 +58,7 @@ export default function Page1() {
                     </div>
                 </nav>
 
-                {/* <div className='w-full relative grow  flex flex-col justify-around'>
+                <div className='w-full relative grow  flex flex-col justify-around'>
 
                     <div className='flex w-full px-[12%] -mb-[5%] justify-between items-start text-white  floating-icon'>
                         <img className=' w-[8%] ' src={CUBE} alt="background" />
@@ -84,42 +84,7 @@ export default function Page1() {
                         <img className='w-[20%] mb-[8%]' src={CUBES} alt="background" />
                         <img className='w-[34%]  ' src={INTROPILLAR} alt="background" />
                     </div>
-                </div> */}
-
-                <div className='w-full relative grow  flex flex-col justify-around'>
-
-                    {/* <div className='flex w-full px-[12%] -mb-[5%] justify-between items-start text-white  floating-icon'>
-                        <div className='w-[100%]'><img className=' w-[8%] ' src={CUBE} alt="background" /></div>
-                        <div className='w-[100%]'><img className='w-[18%] ' src={STAIRS} alt="background" /></div>
-                    </div> */}
-
-                    <div className='px-[15%] -mt-[0%]  flx justify-between  items-end text-white  floating-icon'>
-                        <div><img className='w-[10%] mb-[8%]' src={CUBES} alt="background" /></div>
-                    </div>
-
-                    <div className='w-full flex justify-center  -mt-[2%]  '>
-                        <div className=' w-[50%]  relative flex justify-center items-center text-white '>
-                            <div className='flex flex-col relative items-center'>
-                                <div className='w-[110%]'> <img className='w-[100%]' src={CASH} alt="background" /></div>
-                                <img className=' invisible w-[10%]' src={CASH} alt="background" />
-
-                                <div className='w-[62%]  flex  absolute -mt-[11%]'>
-                                    <img className='w-[100%]' src={PHONE} alt="Phone" />
-                                </div>
-
-                                <div className='w-[80%]'><img className='relative w-[100%]' src={APP} alt="background" /></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='px-[15%]  flex justify-between  items-end text-white  floating-icon'>
-                        <img className='w-[20%] mb-[8%]' src={CUBES} alt="background" />
-                        <img className='w-[34%]  ' src={INTROPILLAR} alt="background" />
-                    </div>
-
                 </div>
-
-
 
                 <nav className='w-full text-white absolute bottom-0  flex justify-between items-center  px-14 lg:mb-0 sm:mb-4'>
 
