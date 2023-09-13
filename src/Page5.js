@@ -11,7 +11,6 @@ import THREADBLACK from './assets_Page5/threadBlack.png'
 import INSTABLACK from './assets_Page5/instaBlack.png'
 import APPLE from './assets_Page1/APPLE.png'
 import STORE from './assets_Page1/STORE.png'
-import CLICK from './assets_Page5/click_here.png'
 
 
 
