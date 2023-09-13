@@ -9,9 +9,10 @@ import BITCOIN from './assets_Page5/investing-bitcoin.png'
 import TWEETBLACK from './assets_Page5/tweetBlack.png'
 import THREADBLACK from './assets_Page5/threadBlack.png'
 import INSTABLACK from './assets_Page5/instaBlack.png'
-// import ARROW from './assets_Page1/ARROW.png'
 import APPLE from './assets_Page1/APPLE.png'
 import STORE from './assets_Page1/STORE.png'
+import CLICK from './assets_Page5/click_here.png'
+
 
 
 import { useState } from 'react';
@@ -21,6 +22,7 @@ import { useState } from 'react';
 export default function Page5() {
 
     const [trigger, setTrigger] = useState(false);
+    const [click, setClick] = useState(true);
 
 
 
@@ -102,15 +104,14 @@ export default function Page5() {
             </div >
 
 
-
             <div className="App_Page5 min-[701px]:hidden  relative flex flex-col w-full overflow-hidden  bg-[#00d54b] h-screen text-white">
 
                 <div className='text-white mt-[6%]'>
                     <label className='text-white text-3xl mb-[10%]'>Investing</label>
                 </div>
 
-                <div className='flex overflow-hidden w-[90%] min-[500px]:scale-[0.85] -mt-[18%] items-center text-white '>
-                    <div onClick={() => { setTrigger(!trigger) }} className={` cursor-pointer flex- flex-col  px-0  ${trigger ? 'translate-x-[160%] scale-[0.6]' : ' translate-x-[20%] scale-100'}  transition-all duration-500 ease-in-out`}>
+                <div className='flex relative overflow-hidden w-[90%] min-[500px]:scale-[0.85] -mt-[18%] items-center text-white '>
+                    <div onClick={() => { setTrigger(!trigger); setClick(false) }} className={` cursor-pointer flex- flex-col  px-0  ${trigger ? 'translate-x-[160%] scale-[0.6]' : ' translate-x-[20%] scale-100'}  transition-all duration-500 ease-in-out`}>
                         <div className='text-left text-black'>
                             <label className='text-2xl '>Stocks</label>
                             <p className=' mt-[4%] font-AgrandirNarrow text-sm '>Whether you’re an expert or just getting started, Cash App is the fastest and most accessible way to invest in stocks. Start now with as little as $1. </p>
@@ -118,13 +119,14 @@ export default function Page5() {
                         <img className=' w-[100%]' src={STOCKS} alt="background" />
                     </div>
 
-                    <div onClick={() => { setTrigger(!trigger) }} className={`cursor-pointer flex flex-col px-0 ${trigger ? ' -translate-x-[70%] scale-[0.7]' : 'translate-x-[20%] scale-[0.4] '} transition-all duration-500 ease-in-out`}>
+                    <div onClick={() => { setTrigger(!trigger); setClick(false) }} className={`cursor-pointer flex flex-col px-0 ${trigger ? ' -translate-x-[70%] scale-[0.7]' : 'translate-x-[20%] scale-[0.4] '} transition-all duration-500 ease-in-out`}>
                         <div className='text-left text-black'>
                             <label className='text-2xl '>Bitcoin</label>
                             <p className=' mt-[4%] font-AgrandirNarrow text-lg'>Cash App is the fastest way to convert dollars to bitcoin. From your home screen, six taps are all it takes to stack sats, buy an entire bitcoin, or just see what it’s all about. </p>
                         </div>
                         <img className=' w-[100%] ' src={BITCOIN} alt="background" />
                     </div>
+                    <img className={`absolute ${click ? '' : 'hidden'} floating-icon w-[6%] mt-[30%] ml-[80%]`} src={CLICK} alt="background" />
                 </div>
 
 
